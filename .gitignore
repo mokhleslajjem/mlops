@@ -1,0 +1,29 @@
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers temporaires
+*.log
+.DS_Store
+
+# Variables secrètes
+.env
+
+# MLflow
+mlruns/
+
+# Modèles volumineux
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
